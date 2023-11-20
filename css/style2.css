@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: url('../images/binary-thumb.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#divContenitore{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+
+#divPrimario{
+    padding-top: 10%;
+    background-color: #025e53;
+    color: white;
+    height: 250%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    position: absolute;
+    color: white;
+    background-color: #025e53;
+    width: 40%;
+    height: 20%;
+    border: solid;
+    border-color: #025e53;
+    border-bottom-color: #00d0b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.immagineDiTesta{
+    width: 20%;
+    height: auto;
+}
+
+#paragrafoIntro{
+    text-align: center;
+    font-size: large;
+}
+
+.divRisultato{
+    display: none;
+    text-align: center;
+    font-size: larger;
+}
